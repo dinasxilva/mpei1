@@ -1,1 +1,6 @@
-#String Nome ; String Pais ; String atributos ; int temp ; 
+#String Nome ; String Pais ; String atributos ; int temp ; int populacao
+#Atributos,Praia,Montanha,Historico,Comercio,Neve,Desporto,Rural,Urbano,Noite,Acessibilidade
+--Inicio
+Lisboa;Portugal;historico,comercio,urbano,noite,acessibilidade;17;530847
+Porto;Portugal;historico,comercio,urbano,noite,acessibilidade;16;230298
+Faro;Portugal;praia,comercio,desporto,urbano,noite;19;64560
