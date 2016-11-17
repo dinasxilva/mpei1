@@ -1,8 +1,14 @@
 #String Nome ; String Pais ; String atributos ; int temp ; int populacao
-Praia,Montanha,Historico,Comercio,Neve,Desporto,Rural,Urbano,Noite,Acessibilidade,Ilha
+Praia,Montanha,Historico,Comercio,Neve,Desporto,Rural,Urbano,Noite,Ilha,Cultura,Tropical,Religioso
 --Inicio
-Lisboa;Portugal;historico,comercio,urbano,noite,acessibilidade;17;530847
-Porto;Portugal;historico,comercio,urbano,noite,acessibilidade;16;230298
+Lisboa;Portugal;historico,comercio,urbano,noite;17;530847
+Porto;Portugal;historico,comercio,urbano,noite;16;230298
 Faro;Portugal;praia,comercio,desporto,urbano,noite;19;64560
 Funchal;Portugal;praia,comercio,desporto,ilha;20;111541
 Ponta Delgada;Portugal;praia,comercio,desporto,ilha;18;68809
+Bilbao;Espanha;urbano,cultura;15;346574
+Granada;Espanha;urbano,historico,cultura;17;237540
+Sevilha;Espanha;historico,desporto,cultura;20;696676
+Madrid;Espanha;comercio,urbano,noite,cultura;14;3165000
+Barcelona;Espanha;praia,historico,comercio,desporto,urbano,noite,cultura;16;1602000
+Toledo;Espanha;historico,rural;17;83334
