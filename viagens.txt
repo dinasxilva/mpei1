@@ -1,0 +1,1 @@
+#String Nome ; String Pais ; String atributos ; int temp ; 
