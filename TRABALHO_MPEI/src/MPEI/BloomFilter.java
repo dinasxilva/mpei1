@@ -4,13 +4,18 @@ public class BloomFilter {
 	private int tamanho; // tamanho do BloomFilter
 	private int k; // numero de funçoes de disperçao
 	private int [] bloom;
+	private String a;
 	
-	public BloomFilter(int tamanho, int k){
+	public BloomFilter(int tamanho, int k, String atributo){
 		this.tamanho=tamanho;
 		this.k=k;
 		bloom = new int[tamanho]; 
+		this.a=atributo;
 	}
 	
+	public String getAtributo(){
+		return a;
+	}
 	// Adicionar uma string ao BloomFilter
 	
 	public void add(String s){
