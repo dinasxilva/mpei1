@@ -1,5 +1,5 @@
 import java.lang.*;
-public class zeze {	
+public class random {	
 	public static void main (String args[]) {
 		String [] s = {"praia","montanha","historico","comercio","neve","desporto","rural","urbano","noite","ilha","cultura","tropical","religioso"};
 		
