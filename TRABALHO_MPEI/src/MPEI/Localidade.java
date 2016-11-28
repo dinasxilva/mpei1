@@ -21,6 +21,9 @@ public class Localidade {
 	public String[] getAtributos(){
 		return atributos.split(",");
 	}
+	public String getAtributos_simple(){
+		return atributos;
+	}
 	public int getTemperatura(){
 		return temperatura;
 	}

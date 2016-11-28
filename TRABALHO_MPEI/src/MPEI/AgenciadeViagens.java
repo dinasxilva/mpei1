@@ -14,15 +14,15 @@ public class AgenciadeViagens {
 		
 		//Leitura do ficheiro	
 		Path p = Paths.get("viagens.txt");					
-		List<String> lines = new ArrayList<String>();	
-
+		List<String> lines = new ArrayList<String>();			
+		try {
+			lines = Files.readAllLines(p,Charset.defaultCharset());
+		}catch (IOException e) {
+			e.printStackTrace();
+		}																	
+		String [] aux=lines.get(1).split(",");
+		 
 		//Criaçao dos BloomFilters
-		 try {
-				lines = Files.readAllLines(p,Charset.defaultCharset());
-			} catch (IOException e) {
-				e.printStackTrace();
-			}																	
-		 String [] aux=lines.get(1).split(",");
 		 BloomFilter [] b = new BloomFilter[aux.length];
 		 for(int i=0; i<aux.length;i++){
 			 b[i]= new BloomFilter(100,3, aux[i]);
