@@ -77,18 +77,11 @@ Virgínia Ocidental;EUA;neve,urbano,ilha,cultura,praia,religioso,comercio,rural,h
 Washington;EUA;ilha,urbano,tropical,comercio,desporto,cultura,praia,montanha,religioso,noite;26;843082
 Wisconsin;EUA;cultura,ilha,noite,religioso,comercio,neve,historico;16;1017864
 Wyoming;EUA;tropical,desporto,praia,historico,religioso,cultura,neve,rural;19;623359
-Ottawa;Canadá;rural,ilha,cultura,noite,religioso,tropical,praia;19;1207362
-Toronto;Canadá;neve,tropical,praia,cultura,rural,religioso,comercio,montanha,desporto,ilha,historico;1;1947188
-Vancouver;Canadá;desporto,montanha,ilha,noite,neve,rural,historico;26;876740
-Montreal;Canadá;desporto,montanha,praia,religioso,comercio,tropical;11;1897250
-Calgary;Canadá;noite,comercio,montanha,tropical,ilha,cultura,urbano,rural,praia,historico,religioso,neve;14;1382644
-Winnipeg;Canadá;noite,ilha,urbano,rural,cultura;28;1581746
 São Paulo;Brasil;urbano,rural,ilha,religioso,desporto,montanha,praia,tropical,cultura,noite,neve,comercio,historico;3;1709095
 Rio de Janeiro;Brasil;rural,montanha,historico,praia,ilha,tropical,religioso,urbano;27;1510945
 Paraíba;Brasil;neve,desporto,rural,cultura,religioso,montanha,praia,tropical,ilha,comercio,noite,historico;7;712297
 Minas Gerais;Brasil;noite,cultura,rural;8;1308760
 Maranhão;Brasil;comercio,religioso,ilha,noite,praia,historico,cultura,montanha,urbano;15;1952274
-Amazonas;Brasil;cultura,comercio,rural,ilha,praia;2;1922500
 Buenos Aires;Argentina;urbano,religioso,rural,tropical,montanha;3;1360891
 Formosa;Argentina;montanha,ilha,urbano,comercio,historico,tropical,neve,cultura,praia,desporto,rural,noite;1;1482140
 San Juan;Argentina;tropical,religioso,comercio,historico,noite,desporto,praia,neve,montanha,cultura;11;1175534
