@@ -26,7 +26,7 @@ public class AgenciadeViagens {
 		//Criaçao dos BloomFilters
 		 BloomFilter [] b = new BloomFilter[aux.length];
 		 for(int i=0; i<aux.length;i++){
-			 b[i]= new BloomFilter(100,5, aux[i]);
+			 b[i]= new BloomFilter(1000,5, aux[i]);
 		 }
 		 
 		 // Criaçao de uma lista com todas as localidades e seus respetivos atributos
@@ -61,8 +61,9 @@ public class AgenciadeViagens {
 					 menus.filtros(aux);
 					 String filt = sc.nextLine();
 					 String [] aa = verificarFiltro(b, filt, local);
-					 
-						 System.out.println(aa[0]);
+					 for(int i=0; i<aa.length;i++){
+						 System.out.println(aa[i]);
+					 }
 					 
 					 break;
 				 case 2:
