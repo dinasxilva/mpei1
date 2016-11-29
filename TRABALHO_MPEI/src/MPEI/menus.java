@@ -3,7 +3,6 @@ package MPEI;
 public class menus {
 	public static void principal(){
 		System.out.println("1-Pesquisar por filtro");
-		System.out.println("2-Pesquisar por Nome");
 		System.out.println("0-Sair");
 	}
 	public static void filtros(String [] s){
@@ -15,9 +14,4 @@ public class menus {
 		}
 		System.out.print("Filtros:	");
 	}
-	public static void pesquisa(){
-		System.out.print("Nome da Cidade:	");
-	}
-	
-
 }

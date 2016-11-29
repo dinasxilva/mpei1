@@ -2,14 +2,15 @@ package MPEI;
 
 public class Localidade {
 	private String nome, pais, atributos;
-	private int populacao, temperatura;
+	private int populacao, temperatura,index;
 	
-	public Localidade(String nome, String pais, String atributos, int temperatura, int populacao){
+	public Localidade(String nome, String pais, String atributos, int temperatura, int populacao, int index){
 		this.nome=nome;
 		this.pais=pais;
 		this.atributos=atributos;
 		this.temperatura=temperatura;
 		this.populacao=populacao;
+		this.index=index;
 	}
 	
 	public String getNome(){
@@ -30,4 +31,15 @@ public class Localidade {
 	public int getPopulacao(){
 		return populacao;
 	}
+	public int getIndex(){
+		return index;
+	}
+
+	@Override
+	public String toString() {
+		return index+  " | " + nome + " | ";
+	}
+
+	
+	
 }

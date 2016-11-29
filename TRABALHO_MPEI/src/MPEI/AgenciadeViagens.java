@@ -33,7 +33,7 @@ public class AgenciadeViagens {
 		 
 		 ListLocalidade local = new ListLocalidade();	
 		 for(int i=3; i<lines.size(); i++){
-			 local.add(lines.get(i));
+			 local.add(lines.get(i), i-3);
 		 }
 		 
 		 //Adiçao das localidades ao bloomfilter
@@ -56,20 +56,25 @@ public class AgenciadeViagens {
 			 menus.principal();
 			 x = sc.nextInt();
 			 sc.nextLine();
+			 clearScreen();
 			 switch(x){
 				 case 1:
 					 menus.filtros(aux);
 					 String filt = sc.nextLine();
+					 clearScreen();
 					 String [] aa = verificarFiltro(b, filt, local);
 					 for(int i=0; i<aa.length;i++){
-						 System.out.println(aa[i]);
+						local.print(aa[i]);
 					 }
+					 System.out.print("Selecione uma das Localidades:	");
+					 int xxx = sc.nextInt();
+					 clearScreen();
+					 local.print2(xxx);
+					 System.out.print("\n\n\n\n\n");
 					 
 					 break;
-				 case 2:
-					 menus.pesquisa();
-					 String nome = sc.nextLine();
-					 break;
+				 case 0:
+					System.exit(1);
 				default:
 					System.out.println("Opção não existe!");
 			 }
@@ -106,7 +111,7 @@ public class AgenciadeViagens {
 					j--;
 				}
 				j++;
-			}while( j<ss.size());
+			}while(j<ss.size());
 			
 		}
 		
@@ -121,5 +126,8 @@ public class AgenciadeViagens {
 		}
 		return ss;
 	}
+	public static void clearScreen() {  
+			for (int i = 0; i < 50; ++i) System.out.println();
+	  }  
 
 }
