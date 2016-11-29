@@ -19,11 +19,11 @@ public class BloomFilter {
 	// Adicionar uma string ao BloomFilter
 	
 	public void add(String s){
-		int hash=s.hashCode()%tamanho;
+		int hash=Math.abs(s.hashCode()%tamanho);
 		bloom[hash]=1;
 		for(int i=1;i<k;i++){
 			s=s+i;
-			hash=s.hashCode()%tamanho;
+			hash=Math.abs(s.hashCode()%tamanho);
 			bloom[hash]=1;
 		}
 	}
@@ -34,10 +34,10 @@ public class BloomFilter {
 		int hash;
 		for(int i=0;i<k;i++){
 			if(i==0){
-				hash=s.hashCode()%tamanho;
+				hash=Math.abs(s.hashCode()%tamanho);
 			}else{
 				s=s+i;
-				hash=s.hashCode()%tamanho;
+				hash=Math.abs(s.hashCode()%tamanho);
 			}
 			if(bloom[hash]!=1) return false;
 		}
